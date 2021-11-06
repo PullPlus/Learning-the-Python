@@ -44,7 +44,7 @@ class Sphere:
         self.x=x
         self.y=y
         self.z=z
-# Для решения задачи, решено нахожить дистанцию между точками и сравнивать её с радиусом.
+# Для решения задачи, решено находить дистанцию между точками и сравнивать её с радиусом.
     def is_point_inside(self,x=0,y=0,z=0):
         mdist=[math.fabs(self.x-x),math.fabs(self.y-y),math.fabs(self.z-z)]
         dist=math.sqrt((mdist[2]**2)+(math.sqrt((mdist[1]**2)+(mdist[0]**2))**2))
